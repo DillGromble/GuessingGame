@@ -140,6 +140,7 @@ $(document).ready(function () {
 	function resetGame() {
 		$('h1').text("Guessing Game!");
 		$('h2').text("Pick a number between 1-100");
+		$('#player-input').prop('disabled', false)
 		$('#submit').prop('disabled', false);
 		$('#hint').prop('disabled', true);
 		$('#tooHigh').hide();
