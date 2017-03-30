@@ -129,6 +129,7 @@ $(document).ready(function () {
 		if (done === 'done') {
 			$('#submit').prop('disabled', true);
 			$('#hint').prop('disabled', true);
+			$('#player-input').prop('disabled', true)
 			$('#reset').animate({'height' : '75px', 
 				'width' : '150px',
 				'font-size' : '22px'}, 400);
